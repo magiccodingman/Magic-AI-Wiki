@@ -86,14 +86,11 @@ As mentioned previously, the Nvidia Tesla P40 GPU's are not recognized by defaul
 3.) Within the IDRAC GUI, you need to enable ipmitools and then reboot the server.
 4.) SSH using something like PUTTY into IDRAC and enable 3rd party GPU settings and manual fan control.
   - I don't honestly remember the exact commands I used. Using google and Chat GPT, I was able to easily get this setup. I'll try to go back and find out what I did to make a more comprensive guide in the future.
-5.) Within your ubuntu OS
-
-
+5.) Within your ubuntu OS, I created a python script where you can just copy what I did here by clicking [this link](https://github.com/magiccodingman/Magic-AI-Wiki/blob/main/Scripts/Dell-Server-Fan-Control.py).
+    - Simply save that script and have it run on startup. This script may not be the best as I made it really quick and dirty, plus I'm not a python developer at all. So, I'm sure others could do significantly better than me. And maybe there's a better way than what I'm doing, but this was sufficent for my use cases as it'll control the fans properly and keep the GPU's and CPU's nice and cool under load while making it quiet with lower RPM fan speed when idle.
 
 
 # Future Notes I may Add
 [] Recovery of all my Proxmox settings so others can follow it step by step
+
 [] Full guide on setting BIOS settings on the R730
-[] Custom Fan Script
-[] Enable ipmi tools
-[] Enable IDRAC
