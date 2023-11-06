@@ -102,5 +102,7 @@ So, this brought me down the path of utilizing local LLM's to build my own serve
 
 # Future Notes I may Add
 [] Recovery of all my Proxmox settings so others can follow it step by step
+
 [] Full guide on setting BIOS settings on the R730
+
 [] General commands/setup/settings of everything would be really nice to have to walk everyone through the entire setup process.
