@@ -65,7 +65,7 @@ But this build really does revolve around the Nvidia Tesla P40's. When building 
 Please note I am benchmarking this on the multi functionality server build with Proxmox, so I have overhead from the hypervisor hosting VM's, but it should be relatively similar to what you'd get if you built the more specific AI machine.
 
 ### Used Open LLM & Oogabooga text generation web ui:
-**It has come to my attention that my benchmarks may be extremely low for reference.** The point stands with what was written, but I'm not using optimized settings at all. I've been informed of others using the same models as myself achieving 5.3X more TPS on their 3090's than what I've achieved. But I've been just using the standard default setting with zero optimization.
+**It has come to my attention that my benchmarks may be extremely low for reference.** The point stands with what was written, but I'm not using optimized settings at all. I've been informed of others using the same models as myself achieving 5.3X more TPS on their 3090's than what I've achieved. But I've been just using the standard default setting with zero optimization. More importantly, after some research, I simply learned I was using some really non optimize Nous Hermes LLama 2 70b models that were not with the times. Apparently you can achieve vastly better results with other models. I can report back on faster speeds in the future when I get some new models downloaded and tested.
 
 **Nouse Hermes LLAMA 2 70b 4bit** - 1.38 - 1.45 TPS
 
