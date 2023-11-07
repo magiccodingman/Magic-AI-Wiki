@@ -1,4 +1,5 @@
 **PLEASE READ THIS**
+
 After much feedback (which is crazy appreciated), I'm re-doing the benchmarks. I'm now reconsidering my opinion on the Tesla P40 GPU's. I may update the guide to suggest the same build as I really like this build, but using 3090's which would bump the cost up to roughly $2,142 versus the $1,092 cost. But, I have multiple tests to perform before I give a final verdict. I'll release all my benchmarks and findings as well so you can make your own educated decisions as well too! And maybe the P40 performs as well as you need it too, but the goal of this build was to create a powerful mid range AI server on the cheap. I'll be keeping everyone updated as I move forward. I'll also be adding 3090's to this server as I have multiple. This way I can have direct comparisons for benchmarks.
 
 # My AI Server build guide
