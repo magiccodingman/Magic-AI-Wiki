@@ -68,7 +68,7 @@ But I went on a hunt for GPU's with 24 GB of VRAM on a budget. And there's a cou
 
 But this build really does revolve around the Nvidia Tesla P40's. When building an AI rig, it's honestly the most important aspect. Making sure your rig can hold the models you wish to run on the VRAM while also being fast enough with tokens per second is critical and I personally believe the P40's are an amazing budget, yet extremely performant card for the task!
 
-# Benchmarks (REWORKING THE RESULTS)
+# Benchmarks (STILL REWORKING THE RESULTS)
 Please note I am benchmarking this on the multi functionality server build with Proxmox, so I have overhead from the hypervisor hosting VM's, but it should be relatively similar to what you'd get if you built the more specific AI machine.
 
 ### Used Open LLM & Oogabooga text generation web ui:
