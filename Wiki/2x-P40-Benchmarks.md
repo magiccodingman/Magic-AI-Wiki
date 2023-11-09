@@ -9,6 +9,8 @@ This is using Llama 2 Nous Hermes GGUF with the llama.cpp loader. **For the 70b 
 ### Context Meaning
 The contexts of 250, 500, 1k, 2k, 3k, and 4k are not the exact numbers, but just the ballpark of what I was aiming for. Here's the correlated numbers if you wish to see the details in complete accuracy. Also when I give the context to actual token count, I'm putting that context into Open Ai's tokenizer to get the actual token count from it.
 
+**Empty** - Means I had nothing in the context at all. This'll cause the fastest generation.
+
 **250** - is exactly 250 in context @ 219 tokens
 
 **500** - is 496 context @ 440 tokens
