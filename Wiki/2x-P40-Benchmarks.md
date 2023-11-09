@@ -1,4 +1,5 @@
 # Llama 2 - Nouse Hermes GGUF
+This is using Llama 2 Nous Hermes GGUF with the llama.cpp loader. **For the 70b test scenarios, I used the nous-hermes-llama2-70b.Q4_K_M.gguf version!** If I just auto downloaded the 70b version from [here](https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF), it would try to auto load the Q5_0 version which would be too close to the VRAM limit and cause errors and crashes.
 
 ## Scenario Types
 **First** - This means I ran the prompt for the first time. This will also incur a significantly higher evaluation time as the LLM will need to 
