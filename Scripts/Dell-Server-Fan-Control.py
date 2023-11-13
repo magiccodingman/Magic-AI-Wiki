@@ -90,7 +90,11 @@ def determine_fan_speed(gpu_temps, cpu_temps):
     elif any(temp > 40 for temp in temps):
         fan_speed = 20
     elif any(temp > 38 for temp in temps):
+        fan_speed = 18
+    elif any(temp > 35 for temp in temps):
         fan_speed = 15
+    elif any(temp > 33 for temp in temps):
+        fan_speed = 13  
     elif any(temp > 5 for temp in temps):
         fan_speed = 10
     return fan_speed
