@@ -58,7 +58,7 @@ def get_fan_speed():
 # Function to determine fan speed based on temperatures
 def determine_fan_speed(gpu_temps, cpu_temps):
     temps = gpu_temps + cpu_temps
-    fan_speed = 20  # Default fan speed
+    fan_speed = 65 # Default fan speed
     if any(temp > 75 for temp in temps):
         fan_speed = 100
     elif any(temp > 73 for temp in temps):
@@ -81,10 +81,18 @@ def determine_fan_speed(gpu_temps, cpu_temps):
         fan_speed = 45
     elif any(temp > 50 for temp in temps):
         fan_speed = 40
-    elif any(temp > 45 for temp in temps):
+    elif any(temp > 48 for temp in temps):
         fan_speed = 35
-    elif any(temp > 40 for temp in temps):
+    elif any(temp > 45 for temp in temps):
         fan_speed = 30
+    elif any(temp > 43 for temp in temps):
+        fan_speed = 25
+    elif any(temp > 40 for temp in temps):
+        fan_speed = 20
+    elif any(temp > 38 for temp in temps):
+        fan_speed = 15
+    elif any(temp > 5 for temp in temps):
+        fan_speed = 10
     return fan_speed
 
 def control_fan():
