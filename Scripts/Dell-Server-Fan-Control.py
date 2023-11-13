@@ -71,16 +71,24 @@ def determine_fan_speed(gpu_temps, cpu_temps):
         fan_speed = 40
     return fan_speed
 
-# Main control function
 def control_fan():
-    gpu_temps = get_gpu_temps()
-    cpu_temps = get_cpu_temps()
-    fan_speed = determine_fan_speed(gpu_temps, cpu_temps)
-    set_fan_speed(fan_speed)
-    current_fan_speeds = get_fan_speed()
-    print(f"GPU Temps: {gpu_temps}, Highest CPU Temps: {cpu_temps}, Fan Speed Set To: {fan_speed}%, Current Fan Speeds: {current_fan_speeds}")
+    try:
+        gpu_temps = get_gpu_temps()
+        cpu_temps = get_cpu_temps()
+        fan_speed = determine_fan_speed(gpu_temps, cpu_temps)
+        set_fan_speed(fan_speed)
+        current_fan_speeds = get_fan_speed()
+        print(f"GPU Temps: {gpu_temps}, Highest CPU Temps: {cpu_temps}, Fan Speed Set To: {fan_speed}%, Current Fan Speeds: {current_fan_speeds}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+      
 
 # Call the control function every 3 seconds
+# Main loop with try-except
 while True:
-    control_fan()
-    time.sleep(3)
+    try:
+        control_fan()
+        time.sleep(3)
+    except Exception as e:
+        print(f"Fatal error in main loop: {e}")
+        time.sleep(10)  # Wait a bit before trying again, to prevent rapid failure loop
