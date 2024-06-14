@@ -15,14 +15,17 @@ For those who want to follow my identical build. I went down the route of having
 | Nvidia Tesla P40 GPU | $175 | 2 | $350 | [Link](https://www.ebay.com/itm/204488727042) |
 | P40 power adapters | $15 | 2 | $30 | [Link](https://www.amazon.com/dp/B08N4BJL2J?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | Dell PowerEdge R730 (128GB RAM, 2x E5-2690v4 2.6GHz =28 Cores, 16 bay) | $408 | 1 | $408 | [Link](https://www.ebay.com/itm/115819389907) |
-| 1600W Dell PSU | $94 | 2 | $188 | [Link](https://www.techbuyer.com/us/dell-poweredge-r730-1600w-80-plus-platinum-power-supply-95hr5-161489?sku=95HR5-DELL-REF) |
+| 1100W Dell PSU | $21 | 2 | $42 | [Link](https://www.ebay.com/itm/134094913593?hash=item1f38ae0039:g:Kq0AAOSw2pBkPFHA&amdata=enc%3AAQAIAAAA8PrhTu%2BzhLKX0jsnp5Dqlh3DZjYc2cSClmmPJwTp5SzKy644q3A4w3%2BlLE0Gt%2Fyg9ybmNWXliWCiSnbNUIf%2FLjP%2F3eEuKZeDZJ%2BuRvwvosOgx4UkQldeWBLiDUaHlYxEMxm246bkNIr79UKBzvlMikro77OyAJRRQjWHSuI8NR%2FIP0JUl%2BzRxpqhXqdZwM6ZHGgbNV%2Bf8vTRTxbeTzhTYFnBcs1FKxuRHnD%2FhEWbjWDzjZm5wiNYH7qv5OPpxpn0lW0h50UTPKPzuSrgrhHVmBOHi%2F4SBptGQDTgG3g0Uyal9eiP8ftJsTyBGiQbVw026g%3D%3D%7Ctkp%3ABFBMxKX82_Ri) |
 | Samsung 870 Evo 500 GB SSD | $48 | 2 | $96 | [Link](https://www.amazon.com/dp/B08QBMD6P4?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | Dell 1.2TB 10k RPM HDD | $62 | 6 | $372 | [Link](https://www.amazon.com/dp/B01LXGGRWA?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | R730 Riser 3 GPU Addition | $15 | 1 | $15 | [Link](https://www.ebay.com/itm/185915362826) |
 | Drive Caddies for SSD's | $30 | 1 | $30 | [Link](https://www.amazon.com/dp/B0837SWX8Y?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | NVME SSD 4TB 7.3k MB/s | $189 | 1 | $189 | [Link](https://www.amazon.com/gp/product/B0C91RNCDV/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) |
 | NVME PCIE Addition Card | $18 | 1 | $18 | [Link](https://www.amazon.com/dp/B084GDY2PW?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
-| **Total Cost** | $1,696 | ------ | ------ | ------ |
+| **Total Cost** | $1,550 | ------ | ------ | ------ |
+
+Update 6/13/2024
+  - Thank you to SourceWebMD on Reddit for helping bring to my attention that the 1600W PSU previously on the guide was not compatible with the R730 server. Even though the manufacturer site claims to be, it does seem to be lying. Please use the 1100W PSU for the build.
 
 ## AI Dedicated Build
 **This is the build I'd suggest to the majority of users who want to balance budget, performance, and have a server fully focused to be an AI workstation.** Also being honest as well, **the following build is also ridiculously easier to setup and cheaper and more performant**.
